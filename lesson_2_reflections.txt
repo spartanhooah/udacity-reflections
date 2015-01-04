@@ -9,3 +9,6 @@ The staging area differs from the other two things because you can easily modify
 This is valuable because you might change your mind about what you want to add to a commit, and you can do that
 non-destructively with the staging area.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+By running git diff --staged before committing.
